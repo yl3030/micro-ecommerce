@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OO微商</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container h-100 d-sm-flex flex-wrap align-items-center justify-content-between">
+                <a href="./index.html" class="header_logo mx-sm-0 mx-auto mb-sm-0 mb-3"><img src="./public/img/logo.svg" alt=""></a>
+                <div class="header_top_right d-flex align-items-center">
+                    <form action="" class="header_search d-lg-flex d-none">
+                        <input type="text" placeholder="搜尋...">
+                        <button>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_29_2687)">
+                                <path d="M6.03703 12.0688C7.37775 12.0689 8.68012 11.6215 9.73785 10.7977L13.7283 14.7882C14.0264 15.0761 14.5014 15.0678 14.7893 14.7697C15.0702 14.4789 15.0702 14.0179 14.7893 13.7272L10.7989 9.73668C12.8432 7.10509 12.3671 3.31453 9.73555 1.27021C7.10396 -0.774105 3.31343 -0.298055 1.26911 2.33353C-0.775204 4.96512 -0.299154 8.75568 2.33243 10.8C3.39189 11.623 4.69543 12.0695 6.03703 12.0688ZM2.83072 2.82951C4.60153 1.05866 7.47259 1.05863 9.24344 2.82944C11.0143 4.60026 11.0143 7.47132 9.24351 9.24217C7.47269 11.013 4.60163 11.013 2.83078 9.24223C2.83075 9.2422 2.83075 9.2422 2.83072 9.24217C1.0599 7.48425 1.04947 4.62366 2.80738 2.85284C2.81515 2.84504 2.82292 2.83728 2.83072 2.82951V2.82951Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_29_2687">
+                                <rect width="15" height="15" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </form>
+                    <nav class="header_link">
+                        <ul class="d-flex align-items-center justify-content-sm-start justify-content-between">
+                            <li class="header_search-m d-lg-none">
+                                <a>
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_29_2687)">
+                                        <path d="M6.03703 12.0688C7.37775 12.0689 8.68012 11.6215 9.73785 10.7977L13.7283 14.7882C14.0264 15.0761 14.5014 15.0678 14.7893 14.7697C15.0702 14.4789 15.0702 14.0179 14.7893 13.7272L10.7989 9.73668C12.8432 7.10509 12.3671 3.31453 9.73555 1.27021C7.10396 -0.774105 3.31343 -0.298055 1.26911 2.33353C-0.775204 4.96512 -0.299154 8.75568 2.33243 10.8C3.39189 11.623 4.69543 12.0695 6.03703 12.0688ZM2.83072 2.82951C4.60153 1.05866 7.47259 1.05863 9.24344 2.82944C11.0143 4.60026 11.0143 7.47132 9.24351 9.24217C7.47269 11.013 4.60163 11.013 2.83078 9.24223C2.83075 9.2422 2.83075 9.2422 2.83072 9.24217C1.0599 7.48425 1.04947 4.62366 2.80738 2.85284C2.81515 2.84504 2.82292 2.83728 2.83072 2.82951V2.82951Z" fill="#4D4D4D"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_29_2687">
+                                        <rect width="15" height="15" fill="#4D4D4D"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./login.html">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.0711 12.9289C15.9819 11.8398 14.6855 11.0335 13.2711 10.5454C14.786 9.50199 15.7812 7.75578 15.7812 5.78125C15.7812 2.59348 13.1878 0 10 0C6.81223 0 4.21875 2.59348 4.21875 5.78125C4.21875 7.75578 5.21402 9.50199 6.72898 10.5454C5.31453 11.0335 4.01813 11.8398 2.92895 12.9289C1.0402 14.8177 0 17.3289 0 20H1.5625C1.5625 15.3475 5.34754 11.5625 10 11.5625C14.6525 11.5625 18.4375 15.3475 18.4375 20H20C20 17.3289 18.9598 14.8177 17.0711 12.9289ZM5.78125 5.78125C5.78125 3.455 7.67379 1.5625 10 1.5625C12.3262 1.5625 14.2188 3.455 14.2188 5.78125C14.2188 8.1075 12.3262 10 10 10C7.67379 10 5.78125 8.1075 5.78125 5.78125Z" fill="#4D4D4D"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="link-cart" href="./cart.html">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.825 4.54625C19.6766 4.36375 19.4539 4.25781 19.2188 4.25781H5.06781L5.00984 3.72531L5.00777 3.7082C4.73043 1.59422 2.9134 0 0.78125 0C0.349766 0 0 0.349766 0 0.78125C0 1.21273 0.349766 1.5625 0.78125 1.5625C2.12914 1.5625 3.27824 2.56832 3.4575 3.90344L4.38613 12.4347C3.57402 12.8033 3.00781 13.622 3.00781 14.5703C3.00781 14.5768 3.00789 14.5834 3.00805 14.5898C3.00789 14.5963 3.00781 14.6029 3.00781 14.6094C3.00781 15.9017 4.05922 16.9531 5.35156 16.9531H5.66945C5.59 17.1861 5.54688 17.4357 5.54688 17.6953C5.54688 18.9661 6.58074 20 7.85156 20C9.12238 20 10.1563 18.9661 10.1563 17.6953C10.1563 17.4357 10.1131 17.1861 10.0337 16.9531H13.4039C13.3244 17.1861 13.2813 17.4357 13.2813 17.6953C13.2813 18.9661 14.3152 20 15.586 20C16.8568 20 17.8907 18.9661 17.8907 17.6953C17.8907 16.4245 16.8568 15.3906 15.586 15.3906H5.35156C4.92078 15.3906 4.57031 15.0402 4.57031 14.6094C4.57031 14.6029 4.57024 14.5963 4.57008 14.5898C4.57024 14.5834 4.57031 14.5768 4.57031 14.5703C4.57031 14.1395 4.92078 13.7891 5.35156 13.7891H15.3254C16.7123 13.7891 17.985 12.931 18.5679 11.603C18.7413 11.208 18.5616 10.7471 18.1665 10.5737C17.7714 10.4003 17.3105 10.58 17.1371 10.975C16.8086 11.7236 16.0805 12.2266 15.3254 12.2266H5.9352L5.23789 5.82031H18.2577L17.8755 7.65297C17.7874 8.07535 18.0584 8.48918 18.4807 8.57727C18.5345 8.58852 18.5882 8.59391 18.6411 8.59391C19.0032 8.59391 19.3282 8.34063 19.405 7.97203L19.9835 5.19859C20.0316 4.96836 19.9733 4.72875 19.825 4.54625ZM15.5859 16.9531C15.9952 16.9531 16.3281 17.2861 16.3281 17.6953C16.3281 18.1046 15.9952 18.4375 15.5859 18.4375C15.1767 18.4375 14.8438 18.1046 14.8438 17.6953C14.8438 17.2861 15.1767 16.9531 15.5859 16.9531ZM7.85156 16.9531C8.26082 16.9531 8.59375 17.2861 8.59375 17.6953C8.59375 18.1046 8.26082 18.4375 7.85156 18.4375C7.44231 18.4375 7.10938 18.1046 7.10938 17.6953C7.10938 17.2861 7.44231 16.9531 7.85156 16.9531Z" fill="#4D4D4D"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="d-lg-none">
+                                <a class="header_menu-box">
+                                    <div class="header_menu mx-sm-0 mx-auto">
+                                        <div class="bar top"></div>
+                                        <div class="bar middle"></div>
+                                        <div class="bar bottom"></div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container h-100">
+                <ul class="d-lg-flex align-items-center h-100">
+                    <li><a href="">遊戲配件</a></li>
+                    <li><a href="">直播設備</a></li>
+                    <li><a href="">車品配件</a></li>
+                    <li><a href="">居家生活</a></li>
+                    <li><a href="">數碼配件</a></li>
+                    <li><a href="">季節產品</a></li>
+                </ul>
+            </div>
+        </div>
+        <form action="" class="header_searchForm-m">
+            <div class="container">
+                <input type="text" placeholder="搜尋...">
+            </div>
+        </form>
+    </header>
+
+    <main>
+        <div class="login">
+            <div class="container">
+                <form action="" class="login_form">
+                    <ul class="login_tab">
+                        <li><a href="./login.html">登入</a></li>
+                        <li><a href="./signin.html" class="active">註冊</a></li>
+                    </ul>
+                    <div class="login_form_main">
+                        <input type="text" placeholder="帳號">
+                        <input type="password" placeholder="密碼">
+                        <div class="login_form_btn d-flex align-items-center justify-content-between">
+                            <button>註冊</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+
+
+
+</body>
+</html>
